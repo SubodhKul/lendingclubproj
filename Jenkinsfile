@@ -7,7 +7,7 @@ pipline {
     stage("build") {
       
       steps {
-          echo "building the application..."
+          echo 'building the application...'
       }
       
     }
@@ -15,7 +15,7 @@ pipline {
     stage("test") {
       
       steps {
-          echo "testing the application..."
+          echo 'testing the application...'
       }
       
     }
@@ -23,7 +23,7 @@ pipline {
     stage("deploy") {
       
       steps {
-          echo "deploying the application..."
+          echo 'deploying the application...'
       }
       
     }
